@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Windows.Extensions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pokedex.BLL\Pokedex.BLL.csproj" />
+    <ProjectReference Include="..\Pokedex.Core\Pokedex.Core.csproj" />
+    <ProjectReference Include="..\Pokedex.DAL\Pokedex.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
